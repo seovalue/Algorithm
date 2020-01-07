@@ -1,5 +1,5 @@
-백준 10845번 C++ 풀이(https://www.acmicpc.net/problem/10845)
-C++에 있는 STL library 중 queue를 이용하여 구현하였다.
+// 백준 10845번 C++ 풀이(https://www.acmicpc.net/problem/10845)
+// C++에 있는 STL library 중 queue를 이용하여 구현하였다.
 
 #include <iostream>
 #include <queue>
