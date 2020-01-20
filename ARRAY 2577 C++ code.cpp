@@ -1,4 +1,5 @@
 //백준 2577번: https://www.acmicpc.net/problem/2577
+
 #include <iostream>
 using namespace std;
 int main(void){
