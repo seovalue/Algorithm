@@ -1,4 +1,4 @@
-a = [1,2,3]
+a = [[1,2,3],[4,5,6]]
 
-for idx, t in enumerate(a):
-    print(idx, t)
+if 3 in a:
+    print("hi")
