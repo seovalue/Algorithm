@@ -1,25 +1,32 @@
 import sys
-sys.stdin = open("input.txt","rt")
-sys.setrecursionlimit(10000)
+
+sys.setrecursionlimit(10**7)
+sys.stdin = open("input.txt")
 
 dx = [1,-1,0,0]
 dy = [0,0,1,-1]
 def dfs(x,y):
     if x == 0 and y == 0:
         return 1
-    if dp[x][y] == -1:
-        dp[x][y] = 0
+    if visit[x][y] == -1:
+        visit[x][y] = 0
         for i in range(4):
             nx = x + dx[i]
             ny = y + dy[i]
-            if 0 <= nx < m and 0 <= ny < n:
-                if matrix[x][y] < matrix[nx][ny]:
-                    dp[x][y] += dfs(nx,ny)
-    return dp[x][y]
+            if 0<=nx<n and 0<=ny<m:
+                if matrix[nx][ny] > matrix[x][y]:
+                    visit[x][y] += dfs(nx,ny)
+    return visit[x][y]
 
-m, n = map(int, input().split())
-matrix = [list(map(int,input().split())) for i in range(m)]
-dp = [[-1] * n for i in range(m)]
-dfs(m-1,n-1)
-print(dp)
-# print(dfs(m-1,n-1))
+
+
+n,m = [int(x) for x in sys.stdin.readline().split()]
+matrix = list()
+for _ in range(n):
+    matrix.append([int(x) for x in sys.stdin.readline().split()])
+visit = [[-1] * m for _ in range(n)]
+
+print(dfs(n-1,m-1))
+
+
+
