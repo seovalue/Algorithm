@@ -15,3 +15,4 @@ for i in range(len(line)):
             stack.pop()
             count += 1
 print(count)
+
