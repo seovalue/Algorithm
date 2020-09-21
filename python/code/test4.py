@@ -10,8 +10,8 @@ def calc_time(start,end):
     start_sec = int(start[0]) * 3600 + int(start[1]) * 60 + int(start[2])
     return end_sec-start_sec
 
-if play_time == adv_time:
-    return "00:00:00"
+    if play_time == adv_time:
+        return "00:00:00"
 
 stack = list()
 logs_list = list()
@@ -43,5 +43,4 @@ for i in range(1,len(cum_list)):
         res_time = cum_list[i][1]
     else:
         break
-return res_time
 
