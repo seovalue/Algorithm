@@ -4,10 +4,10 @@ Uploading Solution of Algorithm
 
 
 # 풀어볼 문제들
----
-[https://www.acmicpc.net/problem/](https://www.acmicpc.net/problem/)
+base_url: [https://www.acmicpc.net/problem/](https://www.acmicpc.net/problem/)
 
 ## DP
+
 - [x]  격자상의 경로 10164
 - [ ]  카드 구매하기 11052
 - [ ]  **이모티콘 14226**
@@ -33,11 +33,12 @@ Uploading Solution of Algorithm
 - [ ]  가장 긴 증가하는 부분수열 11053
 
 ## 구현
+
 - [x]  치킨 배달 15686
 - [ ]  **주사위 굴리기 14499**
 - [ ]  **로봇청소기 14503**
 - [ ]  **ZOAC 16719**
-- [ ]  에라토스테네스의 체 2960
+- [x]  에라토스테네스의 체 2960
 - [ ]  결혼식 5567
 - [ ]  단축키 지정 1283
 - [ ]  숫자 정사각형 1051
@@ -48,6 +49,7 @@ Uploading Solution of Algorithm
 - [ ]  미친 아두이노 8972
 
 ## 그래프
+
 - [x]  최단경로 1753
 - [x]  섬의 개수 4963
 - [ ]  아기 상어 16236
@@ -67,6 +69,7 @@ Uploading Solution of Algorithm
 - [ ]  음식물 피하기 1743
 
 ## 그리디
+
 - [ ]  UCPC는 무엇의 약자일까? 15904
 - [ ]  단어 수학 1339
 - [ ]  한 줄로 서기 1138
@@ -76,12 +79,15 @@ Uploading Solution of Algorithm
 - [ ]  잃어버린 괄호 1541
 
 ## 수학
+
 - [ ]  수열의합 1024
+- [ ]  
 
 ## 번외
+
 - [x]  2309
 - [x]  2605
-- [ ]  2578
+- [x]  2578
 - [ ]  2563
 - [ ]  2564
 - [ ]  2491
