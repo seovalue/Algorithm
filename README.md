@@ -56,7 +56,7 @@ base_url: [https://www.acmicpc.net/problem/](https://www.acmicpc.net/problem/)
 - [ ]  전쟁 - 전투 1303
 - [x]  토마토 7576
 - [x]  미로 탐색 2178
-- [ ]  알파벳 1987
+- [x]  알파벳 1987
 - [ ]  DFS와 BFS 1260
 - [ ]  케빈 베이컨의 6단계 법칙 1389
 - [ ]  돌멩이 제거 1867
@@ -88,8 +88,8 @@ base_url: [https://www.acmicpc.net/problem/](https://www.acmicpc.net/problem/)
 - [x]  2309
 - [x]  2605
 - [x]  2578
-- [ ]  2563
-- [ ]  2564
+- [x]  2563
+- [x]  2564
 - [ ]  2491
 - [ ]  2477
 - [ ]  2527
