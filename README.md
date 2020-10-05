@@ -39,7 +39,7 @@ base_url: [https://www.acmicpc.net/problem/](https://www.acmicpc.net/problem/)
 - [ ]  **로봇청소기 14503**
 - [ ]  **ZOAC 16719**
 - [x]  에라토스테네스의 체 2960
-- [ ]  결혼식 5567
+- [x]  결혼식 5567
 - [ ]  단축키 지정 1283
 - [ ]  숫자 정사각형 1051
 - [ ]  거짓말 1043
@@ -52,7 +52,7 @@ base_url: [https://www.acmicpc.net/problem/](https://www.acmicpc.net/problem/)
 
 - [x]  최단경로 1753
 - [x]  섬의 개수 4963
-- [ ]  아기 상어 16236
+- [x]  아기 상어 16236
 - [ ]  전쟁 - 전투 1303
 - [x]  토마토 7576
 - [x]  미로 탐색 2178
@@ -90,7 +90,7 @@ base_url: [https://www.acmicpc.net/problem/](https://www.acmicpc.net/problem/)
 - [x]  2578
 - [x]  2563
 - [x]  2564
-- [ ]  2491
+- [x]  2491
 - [ ]  2477
 - [ ]  2527
 - [ ]  10157
