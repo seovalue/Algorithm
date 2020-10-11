@@ -105,3 +105,4 @@ base_url: [https://www.acmicpc.net/problem/](https://www.acmicpc.net/problem/)
 - [ ]  10163
 - [ ]  13300
 - [ ]  14696
+- [ ]  삼각 달팽이
