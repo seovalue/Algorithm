@@ -14,3 +14,6 @@ def solution(cryptogram):
 print(solution('browoanoommnaon')) #brown
 print(solution('zyelleyz')) #""
 print(solution("aabbccdeeffdghig")) #ghig
+
+import sys
+sys.stdin.readline().s
