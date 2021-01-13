@@ -206,6 +206,8 @@ key(부모 노드) >= key(자식 노드)
 부모 노드의 키 값이 자식 노드의 키 값보다 작거나 같은 완전 이진 트리  
 key(부모 노드) <= key(자식 노드)  
 <img src="./img/heap.png" width="450px" height="300px">  
+
+
 ### 힙의 삽입 연산
 ![heap_insert](./img/heap_insert.png)
 (이미지 출처: https://gmlwjd9405.github.io)  
