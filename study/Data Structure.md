@@ -72,7 +72,8 @@ Stack이 비어있으면 true를 반환 그렇지않으면 false를 반환
 
 ## 그래프(Graph)란?
 > 노드와 노드를 연결하는 간선(Edge)을 하나로 모아놓은 자료구조  
-![graph](./img/graph.png)  
+  
+<img src="./img/graph.png" width="450px" height="300px">
 ### 그래프와 트리의 구분
 |  | 그래프 | 트리 |  
 |--|--|--|  
@@ -103,7 +104,8 @@ Stack이 비어있으면 true를 반환 그렇지않으면 false를 반환
 
 ## 트리(Tree)란?
 > 노드로 이루어진 자료구조  
-![tree](./img/tree.png)  
+  
+<img src="./img/tree.png" width="450px" height="300px">
 1. 트리는 하나의 루트 노드를 갖는다.  
 2. 루트 노드는 0개 이상의 자식 노드를 갖는다.  
 3. 자식 노드 또한 0개 이상의 자식 노드를 갖고, 이는 반복적으로 정의된다.  
@@ -127,7 +129,8 @@ Stack이 비어있으면 true를 반환 그렇지않으면 false를 반환
 
 ## 큐(Queue)란?
 > 먼저 집어 넣은 데이터가 먼저 나오는 FIFO(First In First Out)구조로 저장하는 형식    
-![queue](./img/queue.png)  
+   
+<img src="./img/queue.png" width="450px" height="300px">
 * add(item): item을 리스트의 끝부분에 추가한다.  
 * remove(): 리스트의 첫 번째 항목을 제거한다.  
 * peek(): 큐에서 가장 위에 있는 항목을 반환한다.  
@@ -204,9 +207,9 @@ key(부모 노드) <= key(자식 노드)
 ![heap](./img/heap.png)  
 
 ### 힙의 삽입 연산
-![heap_insert](./img/heap_insert.png)  
+<img src="./img/heap_insert.png" width="450px" height="300px">  
 (이미지 출처: https://gmlwjd9405.github.io)  
 
 ### 힙의 삭제 연산
-![heap_delete](./img/heap_delete.png)  
+<img src="./img/heap_delete.png" width="450px" height="300px">  
 (이미지 출처: https://gmlwjd9405.github.io)  
