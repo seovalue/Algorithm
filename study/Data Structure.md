@@ -205,12 +205,11 @@ key(부모 노드) >= key(자식 노드)
 * 최소 힙(min heap)  
 부모 노드의 키 값이 자식 노드의 키 값보다 작거나 같은 완전 이진 트리  
 key(부모 노드) <= key(자식 노드)  
-![heap](./img/heap.png)  
-
+<img src="./img/heap.png" width="450px" height="300px">  
 ### 힙의 삽입 연산
-<img src="./img/heap_insert.png" width="450px" height="300px">  
+![heap_insert](./img/heap_insert.png)
 (이미지 출처: https://gmlwjd9405.github.io)  
 
-### 힙의 삭제 연산
-<img src="./img/heap_delete.png" width="450px" height="300px">  
+### 힙의 삭제 연산 
+![heap_delete](./img/heap_delete.png)  
 (이미지 출처: https://gmlwjd9405.github.io)  
