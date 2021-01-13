@@ -3,7 +3,7 @@
 ## 스택(Stack)이란?
 > 한 쪽 끝에서만 자료를 넣고 뺄 수 있는 LIFO 자료구조  
   
-![stack](./img/stack.png)  
+<img src="./img/stack.png" width="450px" height="300px">
 스택은 LIFO를 따르는데, LIFO란 나중에 들어간 항목이 가장 먼저 나오는 구조이다.
 
 * pop() : 스택에서 가장 위에 있는 항목을 제거한다.  
