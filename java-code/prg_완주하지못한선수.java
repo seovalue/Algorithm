@@ -25,6 +25,7 @@ class Solution {
 }
 
 // 3, 4 효율성 실패
+/*
 import java.util.*; 
 class Solution {
     public String solution(String[] participant, String[] completion) {
@@ -39,9 +40,12 @@ class Solution {
         return participant[participant.length - 1];
     }
 }
+*/
 
 
 // 3, 4 효율성 실패
+/*
+*
 class Solution {
     public boolean solution(String[] phone_book) {
         for (int i = 0; i < phone_book.length - 1; i++) {
@@ -78,3 +82,4 @@ class Solution {
         return hash1 == hash2;
     }
 }
+ */
