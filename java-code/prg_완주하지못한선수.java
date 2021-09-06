@@ -1,7 +1,7 @@
 // 성공 코드
 import java.util.*;
 
-class Solution {
+class prg_완주하지못한선수 {
     public boolean solution(String[] phone_book) {
         boolean answer = true;
         

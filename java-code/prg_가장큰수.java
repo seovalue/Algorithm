@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class prg_가장큰수 {
     public String solution(int[] numbers) {
         String answer = "";
         String[] str = new String[numbers.length];

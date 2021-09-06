@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution2 {
+class nw_2 {
     public static void main(String[] args) {
         final String[] strings = solution("abcxxxxyzzzzzzxxxxyabc");
         for (String s : strings) {

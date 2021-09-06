@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class prg_로또의최고순위와최저순위 {
     public int[] solution(int[] lottos, int[] win_nums) {
         int[] answer = new int[]{1, 6}; // 모두 0인 경우를 default로 둔다.
         List<Integer> lottoList = new ArrayList<>();

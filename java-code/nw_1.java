@@ -1,4 +1,6 @@
-class Solution {
+import java.util.Arrays;
+
+class nw_1 {
     public static void main(String[] args) {
         System.out.println(solution(new int[]{13000, 88000, 10000}, new int[]{30, 20}));
     }

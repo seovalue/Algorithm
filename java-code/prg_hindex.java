@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class prg_hindex {
     public int solution(int[] citations) {
         Arrays.sort(citations); // 오름차순으로 정렬
         int size = citations.length; 

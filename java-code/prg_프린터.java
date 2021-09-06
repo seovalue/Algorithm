@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class prg_프린터 {
     public int solution(int[] priorities, int location) {
         Queue<Pair> queue = new LinkedList<>();
         for (int i = 0; i < priorities.length; i++) {
