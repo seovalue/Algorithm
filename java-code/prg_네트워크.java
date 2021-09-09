@@ -2,7 +2,6 @@ public class prg_네트워크 {
     public int solution(int n, int[][] computers) {
         int answer = 0;
         int[] visit = new int[n];
-
         for (int i = 0; i < computers.length; i++) {
             if (visit[i] == 0) {
                 dfs(i, computers, visit);
