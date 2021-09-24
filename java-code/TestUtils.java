@@ -10,4 +10,5 @@ public class TestUtils {
     private static String detailMessage(Object actual, Object expect) {
         return "Expected is " + expect + ", But actual is " + actual;
     }
+
 }
