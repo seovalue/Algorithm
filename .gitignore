@@ -5,6 +5,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+./java-code/out
+
 # C extensions
 *.so
 
@@ -150,3 +152,5 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+
+Algorithm.iml
