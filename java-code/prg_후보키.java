@@ -1,9 +1,9 @@
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.assertEquals;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 public class prg_후보키 {
 
@@ -29,11 +29,13 @@ public class prg_후보키 {
 
             int cnt = 0;
             for (int i = 0; i < records.size() - 1; i++) {
-                if (Objects.equals(records.get(i), records.get(i+1))) {
+                if (Objects.equals(records.get(i), records.get(i + 1))) {
                     cnt++;
                 }
             }
-            if (cnt == records.size()) answer++;
+            if (cnt == records.size()) {
+                answer++;
+            }
         }
 
         return answer;

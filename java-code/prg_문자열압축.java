@@ -1,12 +1,14 @@
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.assertEquals;
 
 import java.util.Objects;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 public class prg_문자열압축 {
 
     public int solution(String s) {
-        if (s.length() == 1) return 1;
+        if (s.length() == 1) {
+            return 1;
+        }
         int answer = Integer.MAX_VALUE;
         // aabbccdd -> size 1 ~ 4
         for (int size = 1; size <= s.length() / 2; size++) {

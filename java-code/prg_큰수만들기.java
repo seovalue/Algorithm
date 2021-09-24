@@ -1,6 +1,6 @@
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.assertEquals;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 public class prg_큰수만들기 {
 
@@ -17,7 +17,9 @@ public class prg_큰수만들기 {
                 if (number.charAt(i) - '0' > max) {
                     max = number.charAt(i) - '0';
                     idx = i;
-                    if (max == 9) break;
+                    if (max == 9) {
+                        break;
+                    }
                 }
             }
             sb.append(max);
@@ -33,10 +35,10 @@ public class prg_큰수만들기 {
     }
 
     @Test
-    void 테스트() {
+    public void 테스트() {
         assertEquals(solution("1924", 2), "94");
         assertEquals(solution("1231234", 3), "3234");
         assertEquals(solution("4177252841", 4), "775841");
-        assertEquals(solution("1111117", 5), "11");
+        assertEquals(solution("1111117", 5), "17");
     }
 }
