@@ -3,32 +3,46 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 public class prg_N으로표현 {
-
-    private int answer = -1;
-
+    static int answer = -1;
     public int solution(int N, int number) {
-        dfs(0, 0, number, N);
-        return answer;
+       solve(N, 0, 0, number);
+       return answer;
+
+        /*
+        +, *, -, / 네 가지의 연산을 할 수 있음.
+        n으로 가능한 연산을 모두 수행한 후에는 nn으로 수행함.
+        nn = 0;
+        nn = nn * 10 + n;
+         */
     }
 
-    private void dfs(int cnt, int value, int target, int n) {
-        // 기저 사례
-        if (cnt > 8) {
-            return;
-        }
-        if (value == target) {
-            if (answer > cnt || answer == -1) answer = cnt;
+    private void solve(int n, int number, int count, int target) {
+        // 기저: 최솟값이 8보다 크면 -1을 리턴한다.
+        if (count > 8) {
             return;
         }
 
-        // nn = 5, 55, 555 ... , 55555555
+        if (number == target) {
+            if (answer > count || answer == -1) {
+                answer = count;
+            }
+            return;
+        }
+
         int nn = 0;
         for (int i = 0; i < 8; i++) {
+            /**
+             * 5 1
+             * 55
+             * 555
+             * ...
+             * 55555555
+             */
             nn = nn * 10 + n;
-            dfs(cnt + 1 + i, value + nn, target, n);
-            dfs(cnt + 1 + i, value - nn, target, n);
-            dfs(cnt + 1 + i, value * nn, target, n);
-            dfs(cnt + 1 + i, value / nn, target, n);
+            solve(n, number + nn, count + 1 + i, target);
+            solve(n, number * nn, count + 1 + i, target);
+            solve(n, number / nn, count + 1 + i, target);
+            solve(n, number - nn, count + 1 + i, target);
         }
     }
 

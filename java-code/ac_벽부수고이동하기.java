@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-class Main {
+class ac_벽부수고이동하기f {
 
     static int[][] map;
     static int[][] count;

@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Objects;
 
-public class prg_이중우선순위큐_실패 {
+public class prg_이중우선순위큐f {
 
     public static void main(String[] args) {
 //        System.out.println(Arrays.toString(solution(new String[]{"I 16", "I -5643", "D -1", "D 1", "D 1", "I 123", "D -1"})));
