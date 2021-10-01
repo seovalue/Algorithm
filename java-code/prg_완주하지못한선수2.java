@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class prg_완주하지못한선수2 {
     public String solution(String[] participant, String[] completion) {
         String answer = "";
         

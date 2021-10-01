@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class prg_위장2 {
     public int solution(String[][] clothes) {
         Map<String, Integer> map = new HashMap<>();
         for (String[] c: clothes) {
